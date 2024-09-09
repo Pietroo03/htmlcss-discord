@@ -173,11 +173,11 @@ header{
 }
 
 .main-title{
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .intro{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .dl-buttons{
@@ -202,6 +202,21 @@ header{
 #browser{
     background-color: var(--tool-black);
     color: white;
+}
+
+.small-title{
+    font-size: 60px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.caption{
+    font-size: 25px;
+}
+
+.white-bg{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .grey-bg{
