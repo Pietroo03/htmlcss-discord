@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #region debug */
+
+.debug *{
+    border: 1px dashed black; 
+}
+
+.debug header{
+    background-color: lightblue;
+}
+
+.debug .logo, .login, .link{
+    background-color:rgb(52, 192, 52); 
+}
+
+.debug .rectangle{
+    height: 500px;
+}
+
+.debug .main{
+    background-color: pink;
+}
+
+.debug .bigger{
+    background-color: lightskyblue;
+}
+
+.debug .smaller{
+    background-color: gray;
+}
+
+.debug .last{
+    background-color: green;
+    height: 700px;
+}
+
+.debug footer{
+    background-color: black;
+}
+
+.debug .main-column, .secondary-column{
+    height: 500px;
+}
+
+.debug .main-column{
+    background-color: pink;
+}
+
+.debug .secondary-column{
+    background-color: rgb(57, 100, 57);
+}
+
+.debug .container-buttons-footer{
+    background-color: aquamarine;
+}
+
+.debug .logo-footer .button{
+    background-color: rgb(229, 217, 219);
+}
+
+/* #endregion debug */
+
+/* #region container-flex */
+
+.container-flex{
+    display: flex;
+    justify-content: center; 
+}
+
+.container-flex .container-column{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.container-buttons-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* #endregion container-flex */
+
+/* #region header-classes */
+
+.nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo, .login{
+    width: 15%;
+}
+
+.link{
+    width: 30%;
+    text-align: center;
+}
+
+.login{
+    text-align: end;
+}
+
+/* #endregion header-classes */
+
+/* #region main-classes */ 
+
+.main{
+    width: 50%;
+}
+
+.blue-bg{
+    background-color: blue;
+}
+
+.grey-bg{
+    background-color: lightgray;
+}
+
+.bigger{
+    width: 40%;
+}
+
+.smaller{
+    width: 20%;
+}
+
+.rectangle{
+    margin-top: 30px;
+    margin-bottom: 30px;  
+}
+
+.last{
+    width: 60%;
+}
+
+/* #endregion main-classes */
+
+/* #region footer-classes */
+
+
+footer{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-top: 10px;
+}
+
+.main-column{
+    width: 20%;
+}
+
+.secondary-column{
+    width: 10%;
+}
+
+.division{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* #endregion footer-classes */
