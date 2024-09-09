@@ -155,8 +155,43 @@ header{
     width: 50%;
 }
 
-.blue-bg{
-    background-color: blue;
+.img-bg{
+    background-image: url(../img/jumbo.png);
+}
+
+.main-title, .intro{
+    text-align: center;
+    color: white;
+}
+
+.main-title{
+    font-size: 50px;
+}
+
+.intro{
+    font-size: 30px;
+}
+
+.dl-buttons{
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+#mac, #browser{
+    padding: 10px 20px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#mac{
+    background-color: white;
+}
+
+#browser{
+    background-color: var(--tool-black);
+    color: white;
 }
 
 .grey-bg{
