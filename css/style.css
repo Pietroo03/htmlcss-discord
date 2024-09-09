@@ -181,21 +181,22 @@ header{
 }
 
 .dl-buttons{
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 20px;
     margin-left: 25%;
     margin-right: 25%;
 }
 
-#mac, #browser{
+.mac, #browser{
     padding: 10px 20px;
+    margin: 20px;
     height: 40px;
     border-radius: 20px;
     text-align: center;
     font-size: 20px;
 }
 
-#mac{
+.mac{
     background-color: white;
 }
 
@@ -207,20 +208,61 @@ header{
 .small-title{
     font-size: 60px;
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 45px;
 }
 
 .caption{
-    font-size: 25px;
+    font-size: 20px;
 }
 
-.white-bg{
+.white-bg, .grey-bg{
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
+#grey-bg-img{
+    margin-left: 25%;
+}
 .grey-bg{
     background-color: lightgray;
+}
+
+.end{
+    text-align: center;
+}
+
+#last-img{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.stars{
+    background-image: url(../img/stars.svg);
+    height: 50px;
+    vertical-align: bottom;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#ready{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+.last-dl{
+    text-align: center;
+    color: white;
+    width: 170px;
+    background-color: var(--tool-blue-button);
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    
 }
 
 .bigger{
