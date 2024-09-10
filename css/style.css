@@ -158,10 +158,10 @@ header{
 
 .img-bg{
     background-image: url(../img/jumbo.png);
-    height: 600px;
+    min-height: 700px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+
 }
 
 .main-title, .intro{
